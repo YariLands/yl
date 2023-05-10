@@ -24,7 +24,7 @@ searchOpenBtn.addEventListener('click', function () {
     if (!isSearchBtnClicked) {
         searchInputEl.style.width = searchBarWidth;
         isSearchBtnClicked = true;
-        switchImage.src = `images/x.svg`;
+        switchImage.src = `x.svg`;
         searchInputEl.focus();
 
 
@@ -56,7 +56,7 @@ searchOpenBtn.addEventListener('click', function () {
         searchInputEl.style.width = `44px`;
         isSearchBtnClicked = false;
         clearInterval(interval);
-        switchImage.src = `images/search.svg`;
+        switchImage.src = `search.svg`;
     }
 })
 
